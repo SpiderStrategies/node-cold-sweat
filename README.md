@@ -24,11 +24,14 @@ Pipe a stream of csv, and this returns a JSON object holding the properties. The
 ```
 
 
-=== Example
+Example
 
 ```
+var sweat = require('cold-sweat')
+  , fs = require('fs')
+
 fs.createReadStream('./data.csv').pipe(sweat(function (err, result) {
-  console.log(result)
+  console.log(JSON.stringify(result))
 
 })
 ```
