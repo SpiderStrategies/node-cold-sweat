@@ -1,5 +1,5 @@
 {
-  "name": "node-cold-sweat",
+  "name": "cold-sweat",
   "version": "0.0.1",
   "description": "Massage csv data into a specific json format ",
   "main": "index.js",
