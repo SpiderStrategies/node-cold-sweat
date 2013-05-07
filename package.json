@@ -1,0 +1,25 @@
+{
+  "name": "node-cold-sweat",
+  "version": "0.0.1",
+  "description": "Massage csv data into a specific json format ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SpiderStrategies/node-cold-sweat.git"
+  },
+  "keywords": [
+    "json",
+    "csv",
+    "parse"
+  ],
+  "author": "Nathan Bowser <nathan.bowser@spiderstrategies.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "1fa9e3e7f879193f5a343331894a733af0f94dd5",
+  "dependencies": {
+    "byline": "~2.0.3"
+  }
+}
